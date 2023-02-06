@@ -52,8 +52,34 @@
         </div>
     </nav>
     <!-- ===== SECTION: MAIN ===== -->
-    <main class="flex-shrink-0">
-        <div class="container"></div>
+    <main class="flex-shrink-0 my-5 py-5">
+        <div class="container py-4 px-5">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col-lg-4 col h-border">
+                    <h2>TACOCAT: A Coding Project</h2>
+                    <h6>There and back again. A javascript coding exrcise using arrays. Write a program that displays a string in reverse.</h6>
+                    <h3 class="mt-5 h3-border-bottom">Instruction</h3>
+                    <p>Enter a string. Press the button and the value will appear.</p>
+                </div>
+                <div class="col-lg-8 col">
+                    <h5>Enter A String</h5>
+                    <form action="" class="row gx-3 gy-2">
+                        <div class="col">
+                            <input type="text" id="inputString" class="form-control" placeholder="Enter a string" aria-label="Enter a string">
+                        </div>
+                        <div class="col-12 col d-flex justify-content-end">
+                            <button type="button" id="btnSubmit" class="btn btn-lg">Run</button>
+                        </div>
+                        <div class="col-12 col" id="alert" role="alert">
+                            <h4 class="alert-h">Result</h4>
+                            <div class="mb-0" id="result">
+                                <!-- Insert The Result Here -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- ===== SECTION: FOOTER ===== -->
     <footer class="footer mt-auto py-2 sticky-footer">
