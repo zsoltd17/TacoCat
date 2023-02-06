@@ -4,7 +4,7 @@ const result = document.querySelector('#result');
 function getValue() {
     let inputStr = document.querySelector('#inputString').value;
 
-    inputStr = inputStr.toLowerCase().replace(/[^a-zA-Z ]/g, "");
+    inputStr = inputStr.toLowerCase().replace(/[^a-zA-Z]/gi, "");
 
     let revStr = generateRevString(inputStr);
 
